@@ -1,0 +1,18 @@
+server:
+  port: 8181
+  compression:
+    enabled: true
+    mime-types: application/json
+
+spring:
+  mvc.async.request-timeout: 5000
+  application:
+    name: so-pick-up-soccer-game-entrypoint
+
+springdoc:
+  packagesToScan: com.thiagosol.sopickupsoccergame.entrypoint
+  pathsToMatch: /**
+  swagger-ui:
+    disable-swagger-default-url: true
+    doc-expansion: none
+    tagsSorter: alpha

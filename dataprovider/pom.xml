@@ -10,7 +10,7 @@
         <version>1.0.0</version>
     </parent>
 
-    <artifactId>so-pick-up-soccer-game-entrypoint</artifactId>
+    <artifactId>so-pick-up-soccer-game-dataprovider</artifactId>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
@@ -22,18 +22,6 @@
             <groupId>com.thiagosol</groupId>
             <artifactId>so-pick-up-soccer-game-core</artifactId>
             <version>1.0.0</version>
-        </dependency>
-
-        <dependency>
-            <groupId>com.thiagosol</groupId>
-            <artifactId>so-pick-up-soccer-game-dataprovider</artifactId>
-            <version>1.0.0</version>
-        </dependency>
-
-        <dependency>
-            <groupId>org.springdoc</groupId>
-            <artifactId>springdoc-openapi-ui</artifactId>
-            <version>1.6.3</version>
         </dependency>
     </dependencies>
 
