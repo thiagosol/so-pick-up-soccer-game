@@ -1,7 +1,7 @@
 version: '3'
 
 services:
-  robobet:
+  so-pick-up-soccer-game:
     image: so-pick-up-soccer-game
     container_name: so-pick-up-soccer-game
     restart: unless-stopped
