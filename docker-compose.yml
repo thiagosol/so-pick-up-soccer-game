@@ -10,10 +10,10 @@ services:
     networks:
       - proxy
     ports:
-      - "9002:8181"
+      - "9003:8181"
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock:ro
-      - ./data:/data
+      - ../data:/data
 
 networks:
   proxy:
